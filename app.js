@@ -21,7 +21,7 @@ const logRequest = (req, res, next) => {
 app.use(logRequest)
 
 const personRoutes = require('./Routes/personRoutes')
-app.use('/person', localAuthMiddleware , personRoutes)
+app.use('/person', localAuthMiddleware ,    personRoutes)
 
 const menuRoutes = require('./Routes/menuRoutes')
 

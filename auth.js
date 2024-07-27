@@ -28,4 +28,6 @@ passport.use(new LocalStratergy(async (username, password, done) => {
     }
 }))
 
+ 
+
 module.exports = passport
